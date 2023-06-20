@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212122;
+    min-height: 100vh;
+}
+
+.container{
+    width: 700px;
+    background: #1d1c1e;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(55, 78, 84);
+}
+
+.controls{
+    margin-bottom: 10px;    
+    border: 1px solid rgba(233, 233, 233, 0.512);
+    border-radius: 15px;
+}
+
+.controls, .controls li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i{
+    width: 40px;
+    color: rgb(232, 232, 232);
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .icons{
+    width: 35%;
+}
+
+.exchange{
+    color: aliceblue;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+ul{
+    list-style: none;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.text-controls textarea{
+    height: 225px;
+    width: 100% ;
+    border: none;
+    font-size: 18px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+    color: rgb(234, 234, 234);
+    font-weight: 500;
+}
+
+textarea::placeholder{
+    color: rgba(240, 248, 255, 0.651);
+}
+
+.box .text-controls{
+    display: flex;
+}
+
+button{
+    background: #cbcbcbd3;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    color: rgb(25, 25, 25);
+    font-size: 18px;
+    margin-top: 5px;
+    transition: all .4s ease;
+    border: 2px solid #0033ff8f;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover{
+    background: rgba(14, 14, 14, 0.681);
+    color: rgba(223, 223, 223, 0.74);
+    border: 2px solid rgb(208, 13, 195);
+}
+
+select{
+    background: none;
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+
+select option{
+    color: black;
+}
